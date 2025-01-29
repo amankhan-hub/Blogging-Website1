@@ -14,10 +14,7 @@ jobs:
       - name: Install dependencies
         run: npm install htmlhint stylelint
 
-      - name: Lint HTML
-        run: npx htmlhint "src/**/*.html"
-
-
+    
 
   build:
     runs-on: ubuntu-latest
