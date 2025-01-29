@@ -15,7 +15,7 @@ jobs:
         run: npm install
 
       - name: Build Website with Parcel
-        run: npx parcel build src/index.html --out-dir build
+        run: npx parcel build src/index.html --dist-dir build
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
